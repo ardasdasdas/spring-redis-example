@@ -32,17 +32,17 @@ To run the project on your local machine, follow these steps.
 git clone https://github.com/ardasdasdas/redis-shopping-cart.git
 ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 ```bash
 cd redis-shopping-cart
 ```
 
-Start Redis and Redis Insight containers with Docker Compose:
+3. Start Redis and Redis Insight containers with Docker Compose:
 ```bash
 docker-compose up
 ```
 
-Run the Spring Boot application:
+4. Run the Spring Boot application:
 ```bash
 mvn spring-boot:run
 ```
